@@ -1,0 +1,82 @@
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: white;
+    color: black;
+}
+
+/* Twitter */
+.fa-instagram {
+    background:white;
+    color: black;
+}
+.fa-snapchat-ghost {
+    background: white;
+    color: black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.title{
+    position: relative;
+    text-align:center;
+    top:100px;
+    font-family: 'Quicksand','serif';
+}
+h1{
+    font-size:60px;
+    letter-spacing: 3px;
+}
+#btn{
+    position: relative;
+    top: 150px;
+    left: 44%;
+}
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+button:hover{
+background-color: white;
+border: 1px solid black;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.social{
+    position: absolute;
+    bottom:0;
+    left:42%;
+}
+body{
+    background: url('India_geo_stub.png') no-repeat 55% center fixed;
+    background-size: 600px 600px;
+
+}

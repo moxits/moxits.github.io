@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'prognosticregular';
+    src: url('prognostic-webfont.woff2') format('woff2'),
+    url('prognostic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#title{
+    position:relative;
+    left:10px;
+    font-family: 'prognosticregular';
+    font-size:72px;
+    color: black;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    top:0px;
+
+}
+.navbar li {
+    float: left;
+}
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: #111;
+}
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.navbar{
+    position:relative;
+    top:0px;
+    background-color:black;
+}
+*{
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-size: 100%;
+     vertical-align: baseline;
+     background: transparent;
+ }
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.first-banner{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:black;
+    position:relative;
+    background: url('timthumb.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align:center;
+    padding-bottom:150px;
+    margin-bottom:0px;
+}
+
+.about{
+    position:relative;
+    top:100px;
+
+}
+.events{
+    position: relative;
+    top:100px;
+}
+#first-banner-heading {
+    padding-top:10px;
+    padding-bottom: 30px;
+    font-size:60px;
+    letter-spacing:2px;
+}
+#first-banner-p{
+    font-size:27px;
+    padding-bottom:250px;
+    color:black;
+}
