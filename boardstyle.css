@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'prognosticregular';
+    src: url('prognostic-webfont.woff2') format('woff2'),
+    url('prognostic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#title{
+    position:relative;
+    left:10px;
+    font-family: 'prognosticregular';
+    font-size:72px;
+    color: black;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    top:0px;
+
+}
+.navbar li {
+    float: left;
+}
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: #111;
+}
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.navbar{
+    position:fixed;
+    top:0px;
+    background-color:black;
+}
+*{
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-size: 100%;
+     vertical-align: baseline;
+     background: transparent;
+ }
+ .navbar{
+     color:rgb(226, 215, 200);
+     margin-bottom:30px;
+ }
